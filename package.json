@@ -1,0 +1,34 @@
+{
+  "name": "lusiadadocs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "node . -d",
+    "start": "node ."
+  },
+  "settings": {
+    "ports": {
+      "webserver": 3000,
+      "dbserver": 3001,
+      "apiserver": 3002
+    },
+    "ssl": {
+      "key": null,
+      "cert": null
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NEI-ULL/lusiadadocs.git"
+  },
+  "author": "NEIULL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NEI-ULL/lusiadadocs/issues"
+  },
+  "homepage": "https://github.com/NEI-ULL/lusiadadocs#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

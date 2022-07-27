@@ -1,0 +1,5 @@
+**/.vscode/
+**/0_dev/
+**/node_modules/
+**/.git/
+**/package-lock.json
