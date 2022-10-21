@@ -7,17 +7,7 @@
     "test": "node . -d",
     "start": "node ."
   },
-  "settings": {
-    "ports": {
-      "webserver": 3000,
-      "dbserver": 3001,
-      "apiserver": 3002
-    },
-    "ssl": {
-      "key": null,
-      "cert": null
-    }
-  },
+  "settings": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NEI-ULL/lusiadadocs.git"
