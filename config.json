@@ -1,0 +1,20 @@
+{
+    "webserver": {
+        "script": "./servers/webserver.js",
+        "port": 3000,
+        "cert": null,
+        "key": null
+    },
+    "apiserver": {
+        "script": "./servers/apiserver.js",
+        "port": 3001,
+        "cert": null,
+        "key": null
+    },
+    "dbserver": {
+        "script": "./servers/dbserver.js",
+        "port": 3002,
+        "cert": null,
+        "key": null
+    }
+}
